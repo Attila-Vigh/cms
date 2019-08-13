@@ -1,0 +1,131 @@
+/* COLORS
+***********************************/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html body .wrapper {
+  background-color: #faebd7ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 980px;
+}
+
+html body .wrapper header, html body .wrapper footer {
+  height: 40px;
+  margin: 30 0 10px 0;
+  padding: 10px;
+  background: #08283d;
+  color: #ffffff;
+  text-align: center;
+}
+
+html body .wrapper header h1, html body .wrapper footer h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+html body .wrapper navigation {
+  margin: 20;
+  padding: 0;
+  text-align: center;
+}
+
+html body .wrapper navigation ul {
+  width: 980px;
+  list-style: none;
+}
+
+html body .wrapper navigation ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+html body .wrapper #content {
+  width: 920px;
+  min-height: 500px;
+  padding: 0 30px;
+}
+
+html body .wrapper #content .errors {
+  display: inline-block;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+html body .wrapper #content .errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+html body .wrapper #content #message {
+  color: #08283d;
+  background: #ffffff;
+  border: 2px solid #08283d;
+  padding: 1em 15px;
+  margin: 1em 30px;
+  width: 890px;
+}
+
+html body .wrapper #content .actions {
+  margin-bottom: 1em;
+}
+
+html body .wrapper #content table {
+  border-collapse: collapse;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+}
+
+html body .wrapper #content table tr td {
+  border: 1px solid;
+  text-align: center;
+}
+
+html body .wrapper #content table tr th {
+  border: 1px solid #08283d;
+  background: #08283d;
+  color: #ffffff;
+  text-align: center;
+}
+
+html body .wrapper #content dl {
+  clear: both;
+  overflow: hidden;
+  margin: 0.5em 0;
+}
+
+html body .wrapper #content dl dt {
+  float: left;
+  font-weight: bold;
+  width: 125px;
+}
+
+html body .wrapper #content dl dd {
+  float: left;
+  margin-left: 1em;
+}
+
+html body .wrapper #content #operations {
+  clear: both;
+  margin: 1em 0 1em 75px;
+}
+/*# sourceMappingURL=administration.css.map */

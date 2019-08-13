@@ -1,0 +1,66 @@
+html{ height: 100%;
+body{
+    height: 100%;
+    background-color: #684730c4;
+    background-image: url("./images/homepage_assets/05.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    #wrapper {
+        height: 640px;
+        width: 360px;
+        margin-top: 60px;
+        padding-top:10%;
+        border-radius: 50px;
+        background-color: #9fa1a03d;
+        border: 5px solid #0101071e;
+        color: #151524bd;
+        line-height: 40px;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        form{
+            margin-top: 180px; 
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            .logInput {
+                font-size: 2em;
+                width: 90%;
+                padding: 0 5%;
+                // background-color: burlywood;
+                input {
+                    :focus {
+                        background-color: rgba(255, 255, 255, 0.774);
+                    }
+                    height: 55px;
+                    width: 100%;
+                    padding: 12px;
+                    background-color: rgba(255, 255, 255, 0.473);
+                    border: 2px solid #10366800;
+                    border-bottom: 2px solid #1036686e;
+                    border-radius: 8px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    font-size: 0.3em;
+                    font-weight: 600;
+                }}
+                .logSubmit{
+                    margin-top: 20px;    
+                    margin-top: 20px;
+                    input {
+                        font-weight: 800;
+                        color: #151524bd;
+                        background-color: #1e181a65;
+                        
+                    }
+                    :hover {
+                        color: #ffffffbd;
+                        background-color: #1e181abd;
+
+                    }}}}}}

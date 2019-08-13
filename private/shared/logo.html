@@ -1,0 +1,31 @@
+<svg class="svgstoke" x="10" y="10" height="70" width="250">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="100%" x2="0%" y2="0%">
+            <stop offset="1%" style="stop-color:#ddd;stop-opacity:0.2" />
+            <stop offset="5%" style="stop-color:#1e1e1e;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect class="svgstoke" stroke="blue" x="0" y="0" width="250" height="70" rx="6" rx="6" fill="url(#grad1)" />
+    <rect class="arrows" x="103" y="10" width="25" height="50"  />
+    <rect class="arrows" x="185" y="10" width="25" height="50" />
+    <text class="text" fill="#5b82a8" font-size="45"  font-family="Verdana" x="0" y="0">
+        <tspan class="bordertest" fill="#949494" x="20" y="50">42</tspan>
+        <tspan fill="#5b82a8" x="100" y="50">&ltAv&gt</tspan>
+    </text>
+    <line id="myline" x1="211" y1="10" x2="211" y2="60" />
+    Sorry, your browser does not support inline SVG.
+</svg>
+<script>
+    bippingLine();
+    
+    function bippingLine (){
+        var i= 0;
+        var toggle = 0.1;
+        setInterval(function(){
+            document.getElementById("myline").style.opacity = i;
+            i = i + toggle;
+
+            if (i > 1 || i < 0 ) toggle = -toggle;
+        }, 100);   
+    }
+</script>

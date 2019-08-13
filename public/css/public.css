@@ -1,0 +1,202 @@
+/* COLORS
+***********************************/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  background: #ff0000;
+}
+
+html body header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background: #353535;
+  color: white;
+}
+
+html body header #logo {
+  width: 13%;
+  border-radius: 6px;
+}
+
+html body header .underDevelopment {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-left: 20%;
+}
+
+html body #main {
+  /* width: 1100px; */
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  clear: both;
+}
+
+html body #main navigation {
+  width: 4%;
+  height: 100%;
+  background: #272727;
+}
+
+html body #main navigation .sidenav li {
+  margin-top: 100px;
+  left: -113px;
+  position: fixed;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 10px;
+  padding-bottom: 6px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 2.8em;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+html body #main navigation .sidenav li a {
+  text-transform: uppercase;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+html body #main navigation .sidenav li i {
+  float: right;
+  color: antiquewhite;
+  font-size: 28px;
+}
+
+html body #main navigation .sidenav li ul.pages li {
+  display: none;
+  position: absolute;
+  background-color: #00000099;
+  width: 140;
+  left: 70px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.116);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.116);
+  padding: 5px 20px;
+  padding-top: 6px;
+  border: 3px solid #ffffff1f;
+  z-index: 1;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+}
+
+html body #main navigation .sidenav li ul.pages li a {
+  text-transform: uppercase;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+html body #main navigation .sidenav li ul.pages li i {
+  float: right;
+  color: antiquewhite;
+  font-size: 28px;
+}
+
+html body #main navigation ul.sidenav > li:hover {
+  left: 0;
+  background: #27272783;
+  border: 1px solid #ffffff21;
+  border-left: 1px solid #27272783;
+}
+
+html body #main navigation ul.sidenav li:hover .pages li {
+  display: block;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+html body #main #page {
+  margin-left: 65px;
+  height: 100%;
+  padding: 2%;
+  vertical-align: top;
+  background: #272727;
+}
+
+html body #main #page h1, html body #main #page h2, html body #main #page h3, html body #main #page p {
+  color: #ffffff;
+  line-height: normal;
+}
+
+html body #main #page h1 {
+  font-size: 2.5em;
+}
+
+html body #main #page h2, html body #main #page h3 {
+  font-size: 14px;
+}
+
+html body #main #page h1, html body #main #page h2 {
+  text-align: center;
+}
+
+html body #main #page p {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 12px;
+}
+
+html body #main #page .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 2%;
+}
+
+html body #main #page .flex-container div img {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+html body #main #page .flex-container div p {
+  font-size: 16px;
+  line-height: normal;
+}
+
+html body #main #page .flex-container div p a.learnmore {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+html body #main #page .flex-container div p a.learnmore:hover {
+  text-decoration: underline;
+}
+
+html body footer {
+  clear: both;
+  height: 3em;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  background: #353535;
+  color: antiquewhite;
+}
+/*# sourceMappingURL=public.css.map */
